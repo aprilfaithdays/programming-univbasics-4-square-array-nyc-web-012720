@@ -2,7 +2,7 @@ def square_array(array)
   num = 0
   
   while num < array.length do
-  num**num
+  return num**num
   
   num += 1
   
