@@ -9,5 +9,5 @@ def square_array(array)
   num += 1
   
   return squared_array
-  
+
 end
