@@ -1,9 +1,13 @@
 def square_array(array)
+  squared_array = []
+  
   num = 0
   
   while num < array.length do
-  num*num
+  squared_array.push(num*num)
   
   num += 1
+  
+  return squared_array
   
 end
