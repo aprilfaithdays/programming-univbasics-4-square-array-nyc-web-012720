@@ -4,7 +4,7 @@ def square_array(array)
   num = 0
   
   while num < array.length do
-  squared_array.push(num*num)
+  squared_array.push(array[num]*num)
   
   num += 1
   
